@@ -18,11 +18,13 @@ buttons.forEach(item =>{
 });
 
 Submit.addEventListener("click", () => {
-    let beforeRating = document.querySelector(".beforeFeedback");
-    let afterRating = document.querySelector(".thankyou");
+    if(btnClicked == true){
+        let beforeRating = document.querySelector(".beforeFeedback");
+        let afterRating = document.querySelector(".thankyou");
 
-    beforeRating.classList.add("down");
-    afterRating.classList.add("active");
+        beforeRating.classList.add("down");
+        afterRating.classList.add("active");
+    }
 })
 
 
