@@ -67,6 +67,7 @@ body{
     border-radius: 10em;
     text-align: center;
     color: hsl(217, 12%, 63%);
+    cursor: pointer;
     transition: 1s ease
 }
 
@@ -89,6 +90,7 @@ body{
     font-weight: 700;
     color: #fff;
     letter-spacing: 2px;
+    cursor: pointer;
     transition: 1s ease;
 }
 
